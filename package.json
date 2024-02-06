@@ -2,9 +2,10 @@
   "name": "task-manager",
   "version": "1.0.0",
   "description": "Assignment 1 for backend engineering launchpad",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "tap test/*.js --disable-coverage"
+    "test": "tap test/*.js --disable-coverage",
+    "start": "node app.js"
   },
   "author": "Airtribe",
   "license": "ISC",
